@@ -160,6 +160,24 @@
             ></div>
         </section>
 
+        <section class="flex justify-center">
+            <div class="join">
+                <div>
+                    <label class="input validator join-item">
+                        <input
+                            id="input-search"
+                            type="text"
+                            placeholder="search vocabulary"
+                            required
+                        />
+                    </label>
+                </div>
+                <button id="btn-search" class="btn btn-primary join-item">
+                    Search
+                </button>
+            </div>
+        </section>
+
         <section
             id="word-container"
             class="bg-gray-100 p-10 w-11/12 mx-auto my-8 grid grid-cols-3 gap-5"
@@ -176,11 +194,9 @@
         <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
             <div class="modal-box">
-               <div id="details-container" class="space-y-5">
-               
-               </div>
-                    <!-- Press ESC key or click the button below to close -->
-                </p>
+                <div id="details-container" class="space-y-5"></div>
+                <!-- Press ESC key or click the button below to close -->
+
                 <div class="modal-action">
                     <form method="dialog">
                         <!-- if there is a button in form, it will close the modal -->
